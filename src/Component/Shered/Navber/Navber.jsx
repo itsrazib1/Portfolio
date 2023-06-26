@@ -29,7 +29,7 @@ const Navber = () => {
   );
   return (
     <div>
-      <div className="navbar text-white top-0">
+      <div className="navbar fixed top-0 z-50 text-white ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
