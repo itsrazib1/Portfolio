@@ -7,22 +7,17 @@ import react from "../../../../public/img/react.png";
 import tailwind from "../../../../public/img/tailwind.png";
 import firebase from "../../../../public/img/firebase.png";
 import bootstrap from "../../../../public/img/bootstrap.jpg";
-import MongoDB from "../../../../public/img/mongodb.png";
+import MongoDB from "../../../../public/img/mongodb.jpg";
 import razib from "../../../../public/img/razib.jpg";
 import About from "../About/About";
 import Project from "../Project/Project";
 import Contract from "../Contract/Contract";
 import { FaDownload } from "react-icons/fa";
 import Typewriter from "../About/Typewriter";
+import pdf from "/resume.pdf";
 
 const Banner = () => {
-  const handleButtonClick = () => {
-    const fileUrl = "/public/resume.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = "resume.pdf";
-    link.click();
-  };
+ 
    const texts = ["WEB DEVELOPER", "MERN-STACK DEVELOPER", "REACT DEVELOPER"];
    
   return (
@@ -40,25 +35,23 @@ const Banner = () => {
               Hi, I am KHAYRUL KOBER RAZIB. <br />I am a MERN-STACK DEVELOPER .
             </p>
             <div className="flex mt-8 sm:mt-10 gap-5">
-              <a href="https://www.linkedin.com/">
+              <a href="https://www.linkedin.com/in/kkoberrazib/">
                 <img
                   className="w-7 rounded-full sm:w-10"
                   src={linkdin}
                   alt="LinkedIn"
                 />
               </a>
-              <a href="https://github.com/">
+              <a href="https://github.com/itsrazib1">
                 <img
                   className="w-8 sm:w-10 rounded-full"
                   src={github}
                   alt="GitHub"
                 />
               </a>
-
-              <button className="btn btn-success btn-md " onClick={handleButtonClick}>
-                <FaDownload className="inline-block  text-white"></FaDownload>{" "}
-                Download Resume
-              </button>
+              <a href={pdf} target="_blank" rel="noreferrer"  className="bg-orange-400 px-5 py-1 rounded-lg" ><FaDownload className="inline-block  text-white bg-cyan-600"></FaDownload>{" "}
+                Download Resume</a>
+             
             </div>
           </div>
           <div className="flex justify-center items-center mt-8 md:mt-0">
@@ -74,32 +67,32 @@ const Banner = () => {
             <div className="font-bold text-center mt-4 mb-4 text-2xl md:text-7xl bg-gradient-to-br from-[#68ceabe7] to-transparent px-2 md:px-7">
               Tech Stack
             </div>
-            <div className="flex flex-wrap items-center mx-16 space-x-2 sm:space-x-4 md:space-x-6 lg:space-x-10 mt-2 sm:mt-4 md:mt-0">
-              <img className=" w-16 sm:h-12  rounded-full  md:h-16" src={html5} alt="HTML5" />
-              <img className=" w-16 sm:h-12  rounded-full  md:h-16" src={css3} alt="CSS3" />
+            <div className="flex flex-wrap items-center mx-16 space-x-2 sm:space-x-4 md:space-x-6 lg:space-x-10 gap-4 mt-2 sm:mt-4 md:mt-0">
+              <img className="h-8 sm:h-12 md:h-16" src={html5} alt="HTML5" />
+              <img className="h-8 sm:h-12 md:h-16" src={css3} alt="CSS3" />
               <img
-                className=" w-16 sm:h-12  rounded-full  md:h-16"
+                className="h-8 sm:h-12 md:h-16"
                 src={javascript}
                 alt="JavaScript"
               />
-              <img className=" w-16 sm:h-12  rounded-full  md:h-16" src={react} alt="React" />
+              <img className="h-8 sm:h-12 md:h-16" src={react} alt="React" />
               <img
-                className=" w-16 sm:h-12  rounded-full  md:h-16"
+                className="h-8 sm:h-12 md:h-16"
                 src={tailwind}
                 alt="Tailwind CSS"
               />
               <img
-                className=" w-16 sm:h-12  rounded-full  md:h-16"
+                className="h-8 sm:h-12 md:h-16"
                 src={firebase}
                 alt="Firebase"
               />
               <img
-                className=" w-16 sm:h-12  rounded-full  md:h-16"
+                className="h-8 sm:h-12 md:h-16"
                 src={bootstrap}
                 alt="Firebase"
               />
               <img
-                className="w-16 sm:h-12  rounded-full  md:h-16"
+                className=" h-8 sm:h-12 md:h-16"
                 src={MongoDB}
                 alt="Firebase"
               />
