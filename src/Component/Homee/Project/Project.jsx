@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import img1 from '../../../../public/img/project1.jpg'
-import img2 from '../../../../public/img/project2.jpg'
-import img3 from '../../../../public/img/project3.jpg'
+import img2 from '../../../../public/img/infonexuss.jpg'
+import img3 from '../../../../public/img/bdcollege.jpg'
 const Project = () => {
   return (
     <div>
@@ -36,12 +36,12 @@ const Project = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-            SPICE GARDEN
+            INFO NEXUS
             </h2>
-            <p>This Is A Chef Related Site</p>
+            <p>This Is Research and analytics platform with communication Site</p>
             <div className="card-actions justify-end">
-            <div className="badge badge-outline hover:text-green-500 "><Link to='https://github.com/itsrazib1/The-Spice-Garden'>Github Code</Link></div>
-              <div className="badge badge-outline hover:text-green-500 "><Link to='https://spice-garden-7fa4a.web.app/'>View Live Site</Link></div>
+            <div className="badge badge-outline hover:text-green-500 "><Link to='https://github.com/itsrazib1/infonexus'>Github Code</Link></div>
+              <div className="badge badge-outline hover:text-green-500 "><Link to='https://infonexus.netlify.app/'>View Live Site</Link></div>
             </div>
           </div>
         </div>
@@ -55,13 +55,13 @@ const Project = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-            Global Language Hub
+            BDCollege
               
             </h2>
-            <p>This Is A Language Chorse Site</p>
+            <p>This Is A College Related Site</p>
             <div className="card-actions justify-end">
-            <div className="badge badge-outline hover:text-green-500 "><Link to='https://github.com/itsrazib1/Global-Language-Hub'>Github Code</Link></div>
-              <div className="badge badge-outline hover:text-green-500 "><Link to='https://global-language-hub.web.app/'>View Live Site</Link></div>
+            <div className="badge badge-outline hover:text-green-500 "><Link to='https://github.com/itsrazib1/BdCollege'>Github Code</Link></div>
+              <div className="badge badge-outline hover:text-green-500 "><Link to='https://bd-college-book.web.app/'>View Live Site</Link></div>
             </div>
           </div>
         </div>
