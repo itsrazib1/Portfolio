@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <div>
       <div className="grid text-white md:grid-cols-3 py-10  gap-4 sm:grid-cols-1 pt-20 md:px-36 sm:mx-0  "> 
-        <div className="card w-auto bg-gradient-to-t from-gray-600 to-red-300   shadow-xl">
+        <div className="card w-auto bg-gradient-to-t from-black to-sky-700   shadow-xl">
           <figure>
             <img
               src={img1}
@@ -26,7 +26,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="card w-auto bg-gradient-to-t from-gray-600 to-red-300  shadow-xl">
+        <div className="card w-auto bg-gradient-to-t from-black to-sky-700  shadow-xl">
           <figure>
             <img
               src={img2}
@@ -45,7 +45,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="card w-auto bg-gradient-to-t from-gray-600 to-red-300  shadow-xl">
+        <div className="card w-auto bg-gradient-to-t from-black to-sky-700  shadow-xl">
           <figure>
             <img
               src={img3}

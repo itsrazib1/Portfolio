@@ -58,7 +58,7 @@ const ContractForm = () => {
       <tr>
         <th>LinkedIn</th>
         <td><FaLinkedin></FaLinkedin></td>
-        <td><a className="text-sm px-4 py-1 bg-teal-500 rounded-md text-white" href="https://www.linkedin.com/in/kkoberrazib/">LINK</a></td>
+        <td><a className="text-sm px-4 py-1 bg-teal-500 rounded-md text-white" href="https://www.linkedin.com/in/khayrul-kober-razib-47b5bb291/">LINK</a></td>
         
       </tr>
       {/* row 3 */}
