@@ -51,7 +51,7 @@ const Banner = () => {
                             <div data-aos="fade-right">
                                 <Link
                                     to="contract"
-                                    className="group text-xs text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+                                    className="group text-xs text-white w-fit px-2 py-1 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
                                 >
                                     Contract Me
                                     <span className="group-hover:rotate-90 duration-300">
@@ -62,7 +62,7 @@ const Banner = () => {
                             <div data-aos="fade-right">
 
                                 <a href={pdf}
-                                    className="group text-xs text-white w-fit px-4 py-3 my-2  flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mx-6"
+                                    className="group text-xs text-white w-fit px-2 py-1 my-2  flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mx-6"
                                 >
                                     Download Resume
                                     <span className="group-hover:rotate-90 duration-300">
@@ -75,7 +75,7 @@ const Banner = () => {
                                 <img
                             src={linkdin}
                             alt="Profile"
-                            className=" h-12 mt-3 md:mt-2 "
+                            className=" h-8 mt-2 sm:mt-2 "
                         />
                                 </a>
                             
