@@ -93,8 +93,8 @@ const Banner = () => {
 
             </div>
             <Experience></Experience>
-            <MyServices></MyServices>
             <About></About>
+            <MyServices></MyServices>
             <Project></Project>
             <Contract></Contract>
         </>
