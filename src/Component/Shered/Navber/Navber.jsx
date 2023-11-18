@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from "../../../../public/img/logo.jpg";
 import { FaHome, FaInfoCircle, FaPhoneAlt, FaReact } from "react-icons/fa";
 
@@ -6,24 +5,21 @@ const Navber = () => {
   const dtails = (
     <>
       <li className="ms-5">
-        <Link>
-          Home<FaHome></FaHome>
-        </Link>
+        <a href="#">Home<FaHome></FaHome></a>
       </li>
       <li className="ms-5">
-        <Link to="/about">
-          About<FaInfoCircle></FaInfoCircle>
-        </Link>
+        <a href="#about">About<FaInfoCircle></FaInfoCircle></a>
       </li>
       <li className="ms-5">
-        <Link to="/project">
-          Projects<FaReact></FaReact>
-        </Link>
+
+        <a href="#project">Projects<FaReact></FaReact></a>
+
+
       </li>
       <li className="ms-5">
-        <Link to="/contract">
-          Contact<FaPhoneAlt></FaPhoneAlt>
-        </Link>
+
+        <a href="#contract">Contact<FaPhoneAlt></FaPhoneAlt></a>
+
       </li>
     </>
   );
