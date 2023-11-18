@@ -4,7 +4,7 @@ import razib from "../../../../public/img/profile.png";
 import About from "../About/About";
 import Project from "../Project/Project";
 import Contract from "../Contract/Contract";
-import pdf from "/public/khayrul_kober_razib's.pdf";
+import pdf from "/public/FULL Stack Developer.pdf";
 import './Banner.css'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { TypeAnimation } from 'react-type-animation';
@@ -22,7 +22,7 @@ const Banner = () => {
                 <div className="grid  grid-cols-1 md:grid-cols-2 justify-evenly md:px-8 md:py-20 sm:px-4 sm:py-8">
                     <div data-aos="fade-up" className="text-center bg-slate-900 flex flex-col justify-center px-2 md:px-12">
                         <h5 className="text-1xl sm:text-2xl font-bold text-blue-400">
-                            <span className='text-1xl sm:text-2xl font-bold text-white'> Hi 👋 I m KHAYRUL KOBER RAZIB </span><br />
+                            <span className='text-1xl sm:text-2xl font-bold text-white'> Hi, I Am <span className="text-green-400">KHAYRUL KOBER RAZIB</span> </span><br />
                             <span className='text-1xl text-white '> As a </span>
                             <br />
 
@@ -44,7 +44,7 @@ const Banner = () => {
 
                         </h5>
                         <p className="text-gray-500 py-4 px-8 text-xl">
-                            I am dedicated . I have a strong problem_solving-mindset, , great teamwork abilities, a love for learning, keen attention to detail, and a strong commitment to my work..
+                            I am dedicated . I have a strong problem_solving-mindset, , Great Teamwork Abilities, A love for learning, keen attention to Detail, And A Strong Commitment To My Work..
                         </p>
 
                         <div className='mx-auto flex py-3 px-4'>
