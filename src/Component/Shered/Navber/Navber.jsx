@@ -4,19 +4,19 @@ import { FaHome, FaInfoCircle, FaPhoneAlt, FaReact } from "react-icons/fa";
 const Navber = () => {
   const dtails = (
     <>
-      <li className="ms-5">
+      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white ">
         <a href="#">Home<FaHome></FaHome></a>
       </li>
-      <li className="ms-5">
+      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white">
         <a href="#about">About<FaInfoCircle></FaInfoCircle></a>
       </li>
-      <li className="ms-5">
+      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white">
 
         <a href="#project">Projects<FaReact></FaReact></a>
 
 
       </li>
-      <li className="ms-5">
+      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white">
 
         <a href="#contract">Contact<FaPhoneAlt></FaPhoneAlt></a>
 
@@ -25,7 +25,7 @@ const Navber = () => {
   );
   return (
     <div>
-      <div className="navbar fixed top-0 z-50 text-white ">
+      <div className="navbar fixed top-0 z-50 font-bold  text-white ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -46,7 +46,7 @@ const Navber = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu z-50 menu-sm dropdown-content mt-3 p-2 shadow bg-black rounded-box w-52"
+              className="menu z-50 menu-sm dropdown-content mt-3 gap-3 p-2 shadow bg-black rounded-box w-52"
             >
               {dtails}
             </ul>
