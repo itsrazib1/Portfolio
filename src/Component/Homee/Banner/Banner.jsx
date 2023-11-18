@@ -21,8 +21,8 @@ const Banner = () => {
             <div className="pt-20">
                 <div className="grid  grid-cols-1 md:grid-cols-2 justify-evenly md:px-8 md:py-20 sm:px-4 sm:py-8">
                     <div data-aos="fade-up" className="text-center bg-slate-900 flex flex-col justify-center px-2 md:px-12">
-                        <h5 className="text-1xl sm:text-2xl font-bold text-blue-400">
-                            <span className='text-1xl sm:text-2xl font-bold text-white'> Hi, I Am <span className="text-green-400">KHAYRUL KOBER RAZIB</span> </span><br />
+                        <h5 className="pt-5 text-1xl sm:text-2xl font-bold text-blue-400">
+                            <span className='text-2xl sm:text-3xl font-bold text-white'> Hi, I Am <span className="text-green-400">KHAYRUL KOBER RAZIB</span> </span><br />
                             <span className='text-1xl text-white '> As a </span>
                             <br />
 
