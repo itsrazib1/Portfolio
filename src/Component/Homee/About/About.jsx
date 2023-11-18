@@ -16,7 +16,7 @@ const About = () => {
               <img src={img} alt="" />
             </div>
 
-            <div className="about-col-2 bg-slate-900 rounded-lg ps-10">
+            <div className="about-col-2 bg-slate-900 rounded-lg py-5 px-5">
               <h1 className="sub-title">About Me</h1>
               <p>
                 MERN Stack Developer with expertise in creating dynamic and responsive web applications. Proficient in JavaScript, React, Node.js, and MongoDB. Strong problem-solving skills and a passion for delivering high-quality code. Dedicated to continuous learning and staying updated with the latest industry trends.

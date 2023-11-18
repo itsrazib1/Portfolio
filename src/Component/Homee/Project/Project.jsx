@@ -5,6 +5,7 @@ import img3 from '../../../../public/img/bdcollege.jpg'
 const Project = () => {
   return (
     <div>
+      <h2 className="text-5xl text-center font-bold bg-white text-black bg-opacity-50 sm:mx-0 md:mx-96 py-10">My Project</h2>
       <div className="grid text-white md:grid-cols-3 py-10  gap-4 sm:grid-cols-1 pt-20 md:px-36 sm:mx-0  "> 
         <div className="card w-auto bg-gradient-to-t from-black to-sky-700   shadow-xl">
           <figure>
@@ -26,6 +27,7 @@ const Project = () => {
             </div>
           </div>
         </div>
+        
         <div className="card w-auto bg-gradient-to-t from-black to-sky-700  shadow-xl">
           <figure>
             <img

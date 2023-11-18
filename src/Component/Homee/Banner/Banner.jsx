@@ -23,7 +23,7 @@ const Banner = () => {
                     <div data-aos="fade-up" className="text-center bg-slate-900 flex flex-col justify-center px-2 md:px-12">
                         <h5 className="pt-5 text-1xl sm:text-2xl font-bold text-blue-400">
                             <span className='text-2xl sm:text-3xl font-bold text-white'> Hi, I Am <span className="text-green-400">KHAYRUL KOBER RAZIB</span> </span><br />
-                            <span className='text-1xl text-white '> As a </span>
+                            <span className='text-2xl sm:text-3xl text-white '> As a </span>
                             <br />
 
                             <TypeAnimation className=' text-2xl md:text-3xl'
@@ -43,7 +43,7 @@ const Banner = () => {
 
 
                         </h5>
-                        <p className="text-gray-500 py-4 px-8 text-xl">
+                        <p className="text-gray-500 py-4 px-8 sm:text-xl text-sm">
                             I am dedicated . I have a strong problem_solving-mindset, , Great Teamwork Abilities, A love for learning, keen attention to Detail, And A Strong Commitment To My Work..
                         </p>
 
