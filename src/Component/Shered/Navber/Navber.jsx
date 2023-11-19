@@ -4,19 +4,19 @@ import { FaHome, FaInfoCircle, FaPhoneAlt, FaReact } from "react-icons/fa";
 const Navber = () => {
   const dtails = (
     <>
-      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white ">
+      <li className="ms-5 border-2 rounded-lg border-cyan-400 hover:bg-white ">
         <a href="#">Home<FaHome></FaHome></a>
       </li>
-      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white">
+      <li className="ms-5 border-2 rounded-lg border-cyan-400 hover:bg-white">
         <a href="#about">About<FaInfoCircle></FaInfoCircle></a>
       </li>
-      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white">
+      <li className="ms-5 border-2 rounded-lg border-cyan-400 hover:bg-white">
 
         <a href="#project">Projects<FaReact></FaReact></a>
 
 
       </li>
-      <li className="ms-5 border-2 rounded-lg border-yellow-400 hover:bg-white">
+      <li className="ms-5 border-2 rounded-lg border-cyan-400 hover:bg-white">
 
         <a href="#contract">Contact<FaPhoneAlt></FaPhoneAlt></a>
 
