@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import img1 from '../../../../public/img/project1.jpg'
-import img2 from '../../../../public/img/infonexuss.jpg'
-import img3 from '../../../../public/img/bdcollege.jpg'
+import img1 from '../../../../public/img/rupsojjacosmetics.jpg'
+import img2 from '../../../../public/img/infonexusimg.jpg'
+import img3 from '../../../../public/img/bdcollegeimg.jpg'
 const Project = () => {
   return (
     <div id='project'>
