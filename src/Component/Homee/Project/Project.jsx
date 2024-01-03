@@ -44,6 +44,47 @@ const Project = () => {
             </div>
           </div>
         </div>
+        <div className="card w-auto bg-gradient-to-t from-black to-sky-700  shadow-xl">
+          <figure>
+            <img
+              src={img4}
+              alt="Shoes"
+              className='h-[300px] mt-5 rounded-lg'
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+            STUDY WITH SHEPONSIR
+
+            </h2>
+            <p>This Is Based on Studying Student management </p>
+            <p>
+            My Role:  I create Front-end UI design,Redux and Back End, Firebase, and React Router.   
+ <br />
+              Features: <br />
+              ●   It is my project and based on Studying student management  <br />
+              ●  Todo-related website User can Add His details And Management There Task And Attendance 
+<br />
+              Technology Used: <br />
+              <div className='grid grid-cols-3 gap-2 text-center pt-2'>
+                <div className='border-2 border-blue-600 rounded-xl'>ReactJS</div>
+                <div className='border-2 border-red-600 rounded-xl'>Tailwind</div>
+                <div className='border-2 border-green-600 rounded-xl'>Redux</div>
+                <div className='border-2 border-red-600 rounded-xl'>Node.js</div>
+                <div className='border-2 border-green-600 rounded-xl'>Express.js</div>
+                <div className='border-2 border-blue-600 rounded-xl'>MongoDB</div>
+                <div className='border-2 border-green-600 rounded-xl'>Firebase</div>
+                <div className='border-2 border-red-600 rounded-xl'>Daisy Ui</div>
+              </div>
+
+            </p>
+            <div className="card-actions justify-end pt-3">
+              <div className="badge badge-outline hover:text-green-500 "><Link to='https://github.com/itsrazib1/stady-with-shiponsir'>Client Code</Link></div>
+              <div className="badge badge-outline hover:text-red-500 "><Link to='https://github.com/itsrazib1/stady-with-shiponsir-server'>Server Code</Link></div>
+              <div className="badge badge-outline hover:text-blue-500 "><Link to='https://stady-with-shiponsir.netlify.app/'>Live Site</Link></div>
+            </div>
+          </div>
+        </div>
         <div className="card w-auto bg-gradient-to-t from-black to-sky-700   shadow-xl">
           <figure>
             <img
@@ -123,46 +164,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="card w-auto bg-gradient-to-t from-black to-sky-700  shadow-xl">
-          <figure>
-            <img
-              src={img4}
-              alt="Shoes"
-              className='h-[300px] mt-5 rounded-lg'
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">
-              BDCollege
-
-            </h2>
-            <p>This Is A College Related Site</p>
-            <p>
-            My Role: I was working to create Front-end UI design and Back end, Firebase, and React router.  
- <br />
-              Features: <br />
-              ●  It is a my project and based on College-related website.  <br />
-              ● This project is an e-commerce-related website user wants to log in and will be enrolled classes. 
-<br />
-              Technology Used: <br />
-              <div className='grid grid-cols-3 gap-2 text-center pt-2'>
-                <div className='border-2 border-blue-600 rounded-xl'>ReactJS</div>
-                <div className='border-2 border-red-600 rounded-xl'>Tailwind</div>
-                <div className='border-2 border-green-600 rounded-xl'>Daisy Ui</div>
-                <div className='border-2 border-red-600 rounded-xl'>Node.js</div>
-                <div className='border-2 border-green-600 rounded-xl'>Express.js</div>
-                <div className='border-2 border-blue-600 rounded-xl'>MongoDB</div>
-                <div className='border-2 border-green-600 rounded-xl'>Firebase</div>
-              </div>
-
-            </p>
-            <div className="card-actions justify-end pt-3">
-              <div className="badge badge-outline hover:text-green-500 "><Link to='https://github.com/itsrazib1/BdCollege'>Client Code</Link></div>
-              <div className="badge badge-outline hover:text-red-500 "><Link to='https://github.com/itsrazib1/BdCollege-server'>Server Code</Link></div>
-              <div className="badge badge-outline hover:text-blue-500 "><Link to='https://bd-college-book.web.app/'>Live Site</Link></div>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </div>
   );
