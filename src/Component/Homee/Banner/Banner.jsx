@@ -1,10 +1,9 @@
 import linkdin from "../../../../public/img/640px-LinkedIn_logo_initials.png";
-// import github from "../../../../public/img/github.png";
 import razib from "../../../../public/img/profile.png";
 import About from "../About/About";
 import Project from "../Project/Project";
 import Contract from "../Contract/Contract";
-import pdf from "/public/FULL Stack Developer.pdf";
+import pdf from "../../../../public/resume.pdf";
 import './Banner.css'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { TypeAnimation } from 'react-type-animation';
@@ -20,7 +19,7 @@ const Banner = () => {
         <>
             <div className="pt-20">
                 <div className="grid  grid-cols-1 md:grid-cols-2 justify-evenly md:px-8 md:py-20 sm:px-4 sm:py-8">
-                    <div data-aos="fade-up" className="text-center bg-slate-900 flex flex-col justify-center px-2 md:px-12">
+                    <div data-aos="fade-up" className="text-center bg-slate-900 flex flex-col justify-center px-2 lg:px-12">
                         <h5 className="pt-5 text-1xl sm:text-2xl font-bold text-blue-400">
                             <span className='text-2xl sm:text-3xl font-bold text-white'> Hi, I Am <span className="text-green-400">KHAYRUL KOBER RAZIB</span> </span><br />
                             <span className='text-2xl sm:text-3xl text-white '> As a </span>
@@ -71,7 +70,7 @@ const Banner = () => {
                                 </a>
                             </div>
                             <div data-aos="fade-right">
-                                <a href="https://www.linkedin.com/in/khayrul-kober-razib-47b5bb291/">
+                                <a href="https://www.linkedin.com/in/itsrazib1/">
                                 <img
                             src={linkdin}
                             alt="Profile"

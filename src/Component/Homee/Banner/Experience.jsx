@@ -12,6 +12,7 @@ import Firebase from "../../../../src/assets/firebase.png";
 import github from "../../../../src/assets/github.png";
 import tailwind from "../../../../src/assets/tailwind.png";
 import Nextjs from "../../../../src/assets/nextjs.png";
+import Redux from "../../../../src/assets/Redux.png";
 
 
 const Experience = () => {
@@ -90,6 +91,12 @@ const Experience = () => {
             src: Nextjs,
             title: "Next JS",
             style: "shadow-gray-400",
+        },
+        {
+            id: 13,
+            src: Redux,
+            title: "Redux",
+            style: "shadow-violet-700",
         }
     ];
 
@@ -109,7 +116,7 @@ const Experience = () => {
                         <p className="py-6">Check out some of my skills right here</p>
                     </div>
 
-                    <div data-aos="zoom-in" className="w-full  h-auto grid grid-cols-3 sm:grid-cols-5 gap-8 text-center py-6 px-12 sm:px-0">
+                    <div data-aos="zoom-in" className="w-full  h-auto grid grid-cols-3 sm:grid-cols-5 gap-8 text-center py-6 px-3 sm:px-0">
                         {techs.map(({ id, src, title, style }) => (
                             <div
                                 key={id}
