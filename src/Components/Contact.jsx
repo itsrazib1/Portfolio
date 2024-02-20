@@ -51,13 +51,13 @@ const Contact = () => {
                 </div>
 
                 {/*<!-- Component: Card with form --> */}
-                <form data-aos="fade-left" action='https://formspree.io/f/moqoawnd' method='POST' className="md:w-8/12 overflow-hidden rounded text-slate-500 mb-8">
+                <form data-aos="fade-left" action='https://formspree.io/f/moqoawnd' method='POST' className="md:w-8/12 overflow-hidden rounded text-slate-500 mb-8 border p-10 rounded-ss-3xl rounded-ee-3xl">
                     {/*  <!-- Body--> */}
-                    <div className="px-6 text-white">
+                    <div className="px-6  text-white">
                         <header className="mt-6 md:mt-0 md:mb-4">
                             <h3 className="text-3xl font-bold text-white ">Message me!!</h3>
                         </header>
-                        <div className="flex flex-col space-y-8">
+                        <div className="flex flex-col  space-y-8">
                             {/*      <!-- Input field --> */}
                             <div className="grid grid-cols-2 -mb-5 gap-x-5">
                                 <div className="relative my-6">
@@ -113,12 +113,12 @@ const Contact = () => {
                                     type="email"
                                     name="message"
                                     placeholder="your message"
-                                    className="h-10 peer relative w-full rounded border border-slate-200 px-4 text-sm text-slate-500 placeholder-transparent outline-none transition-all  invalid:border-pink-500 invalid:text-pink-500 focus:border-white-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed bg-transparent disabled:text-slate-400"
+                                    className=" h-20  peer relative w-full rounded border border-slate-200 px-4 text-sm text-slate-500 placeholder-transparent outline-none transition-all  invalid:border-pink-500 invalid:text-pink-500 focus:border-white-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed bg-transparent disabled:text-slate-400"
                                 ></textarea>
 
                                 <label
                                     htmlFor="id-b03"
-                                    className="absolute left-2 -top-2 z-[1] px-2 text-xs text-slate-400 transition-all before:absolute before:top-0 before:left-0 before:z-[-1] before:block before:h-full before:w-full bg-transparent before:transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-required:after:text-pink-500 peer-required:after:content-['\00a0*'] peer-invalid:text-pink-500 peer-focus:-top-6 peer-focus:text-xs peer-focus:text-white-500 peer-invalid:peer-focus:text-pink-500 peer-disabled:cursor-not-allowed peer-disabled:text-slate-400 peer-disabled:before:bg-transparent"
+                                    className="absolute left-2 -top-2 z-[1]  px-2 text-xs text-slate-400 transition-all before:absolute before:top-0 before:left-0 before:z-[-1] before:block before:h-full before:w-full bg-transparent before:transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-required:after:text-pink-500 peer-required:after:content-['\00a0*'] peer-invalid:text-pink-500 peer-focus:-top-6 peer-focus:text-xs peer-focus:text-white-500 peer-invalid:peer-focus:text-pink-500 peer-disabled:cursor-not-allowed peer-disabled:text-slate-400 peer-disabled:before:bg-transparent"
                                 >
                                     Your message*
                                 </label>

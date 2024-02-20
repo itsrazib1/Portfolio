@@ -72,9 +72,8 @@ const About = () => {
                                     <ul>
                                         <li>
                                             <span>2023 August-October</span>
-                                            <br />
-                                            Letter of Recommendation (From Programming Hero )
-                                            <br />● 2 Month Team Project With Github Collaboration .
+                                            
+                                            <br />3 Month Team Project With Github Collaboration .
 
                                         </li>
                                         <li>

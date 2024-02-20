@@ -63,7 +63,7 @@
     margin-top: 20px;
   }
   .header-text h1 span {
-    color: #ca38c2;
+    color: #e221d9;
   }
   
   /* about */
@@ -106,7 +106,7 @@
     content: "";
     width: 0;
     height: 3px;
-    background: #ca38c2;
+    background: #e221d9;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -120,7 +120,7 @@
     margin: 10px 0;
   }
   .tab-container ul li span {
-    color: #ca38c2;
+    color: #ff31f5;
     font-size: 14px;
   }
   .tab-container {
@@ -165,7 +165,7 @@
     display: inline-block;
   }
   .service-list div:hover {
-    background: #ca38c2;
+    background: #e221d9;
     transform: translateY(-10px);
     font-weight: bold;
   }
@@ -193,7 +193,7 @@
   .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #ca38c2);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #e221d9);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -214,7 +214,7 @@
   }
   .layer a {
     margin-top: 20px;
-    color: #ca38c2;
+    color: #e221d9;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -243,7 +243,7 @@
     margin-top: 30px;
   }
   .contact-left p i {
-    color: #ca38c2;
+    color: #e221d9;
     margin-right: 15px;
     font-size: 25px;
   }
@@ -259,7 +259,7 @@
     transition: transform 0.5s;
   }
   .social-icon a:hover {
-    color: #ca38c2;
+    color: #e221d9;
     transform: translateY(-5px);
   }
   
@@ -292,7 +292,7 @@
     margin-top: 20px;
   }
   .copyright i {
-    color: #ca38c2;
+    color: #e221d9;
   }
   /* ---------------css for small deviece------- */
   
