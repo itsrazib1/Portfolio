@@ -63,7 +63,7 @@
     margin-top: 20px;
   }
   .header-text h1 span {
-    color: #00ffaa;
+    color: #ca38c2;
   }
   
   /* about */
@@ -106,7 +106,7 @@
     content: "";
     width: 0;
     height: 3px;
-    background: #00ffaa;
+    background: #ca38c2;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -120,7 +120,7 @@
     margin: 10px 0;
   }
   .tab-container ul li span {
-    color: #00ffaa;
+    color: #ca38c2;
     font-size: 14px;
   }
   .tab-container {
@@ -165,8 +165,9 @@
     display: inline-block;
   }
   .service-list div:hover {
-    background: #12b27d;
+    background: #ca38c2;
     transform: translateY(-10px);
+    font-weight: bold;
   }
   /* ---------------------Portfolio------------------------ */
   #portfolio {
@@ -192,7 +193,7 @@
   .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #00ffaa);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #ca38c2);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -213,7 +214,7 @@
   }
   .layer a {
     margin-top: 20px;
-    color: #00ffaa;
+    color: #ca38c2;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -242,7 +243,7 @@
     margin-top: 30px;
   }
   .contact-left p i {
-    color: #00ffaa;
+    color: #ca38c2;
     margin-right: 15px;
     font-size: 25px;
   }
@@ -258,7 +259,7 @@
     transition: transform 0.5s;
   }
   .social-icon a:hover {
-    color: #00ffaa;
+    color: #ca38c2;
     transform: translateY(-5px);
   }
   
@@ -291,7 +292,7 @@
     margin-top: 20px;
   }
   .copyright i {
-    color: #00ffaa;
+    color: #ca38c2;
   }
   /* ---------------css for small deviece------- */
   
