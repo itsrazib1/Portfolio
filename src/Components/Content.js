@@ -129,33 +129,33 @@ export const content = {
         {
             "title": "INFO NEXUS",
             "description": "This Is Research and analytics platform with communication Site",
-            "client": "https://github.com/codewithsiam/nexus-bank-ltd-client",
-            "server": "https://github.com/codewithsiam/nexus-bank-ltd-server",
-            "live_link": "https://nexus-cc1a9.web.app/",
+            "client": "https://github.com/itsrazib1/infonexus",
+            "server": "https://github.com/itsrazib1/infonexus",
+            "live_link": "https://infonexus.netlify.app/",
             "imageSrc": img4
         },
         {
             "title": "STUDY WITH SHEPONSIR",
             "description": "This Is Based on Studying Student management",
-            "live_link": "https://royal-rent-client.vercel.app/",
-            "client": "https://github.com/mutanim24/royal-rent-client",
-            "server": "https://github.com/mutanim24/royal-rent-server",
+            "live_link": "https://study-with-shiponsir.netlify.app/",
+            "client": "https://github.com/itsrazib1/stady-with-shiponsir",
+            "server": "https://github.com/itsrazib1/stady-with-shiponsir-server",
             "imageSrc": img5
         },
         {
             "title": "RUPSOJJA COSMATIC",
             "description": "This Is A Cosmetics Shop. User Can Buy Here",
-            "live_link": "https://capture-academy-1a91f.web.app/",
-            "client": "https://github.com/mahdee18/capture-academy-client",
-            "server": "https://github.com/mahdee18/capture-academy-server",
+            "live_link": "https://rupsojja-cosmatic.web.app/",
+            "client": "https://github.com/itsrazib1/Rupsojja-Cosmetics",
+            "server": "https://github.com/itsrazib1/rupsojja-cosmatic-server",
             "imageSrc": img1
         },
         {
             "title": "BDCollege",
             "description": "This Is A College Related Site.Here Show Data Manegment Here",
-            "live_link": "https://smarttoymarket.web.app/",
-            "client": "https://github.com/mahdee18/smart-toy-market-client",
-            "server": "https://github.com/mahdee18/smart-toy-market-server",
+            "live_link": "https://bd-college-book.web.app/",
+            "client": "https://github.com/itsrazib1/BdCollege",
+            "server": "https://github.com/itsrazib1/BdCollege-server",
             "imageSrc": img2
         },
 
