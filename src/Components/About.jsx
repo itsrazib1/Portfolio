@@ -54,7 +54,7 @@ const About = () => {
                                         <li>
                                             <span>Font-end Developer</span>
                                             <br />
-                                            Designing Font-end Website Interfaces
+                                            Designing Font-End Website Interfaces
                                         </li>
                                         <li>
                                             <span>Web Development</span>
